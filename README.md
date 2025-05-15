@@ -105,3 +105,15 @@
 3.npm run dev
 
 4. Acesse em (http://localhost:5254)
+
+
+📁 Organização dos Dados
+As informações sobre os autores e livros são armazenadas em um arquivo JavaScript, o que facilita a expansão futura com novos escritores ou obras.
+
+📝 Licença
+Este projeto está sob a licença MIT.
+
+💡 Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias, correções ou novos recursos.
+
+---
