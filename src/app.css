@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.button-perso{
+	@apply self-center text-center rounded-md bg-zinc-700 hover:bg-[#89f2ff] hover:text-black cursor-auto duration-700
+}
+
+main {
+
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #555 #1f1f1f;
+}
+
+/* Chrome, Edge, Safari */
+main::-webkit-scrollbar {
+  width: 8px;
+} 
+
+ main::-webkit-scrollbar-track {
+  background: #1f1f1f;
+  border-radius: 8px;
+} */
+
+main::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 8px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  background: #888;
+} 
