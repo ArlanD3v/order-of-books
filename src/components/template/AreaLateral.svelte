@@ -7,7 +7,6 @@
     IconBrandYoutube,
     IconFriends,
     IconHome,
-    IconRss,
     IconSquare1,
     IconSquare2,
     IconSquare3,
@@ -22,7 +21,14 @@
 
 <aside
   class="flex flex-col self-start
- border border-zinc-800 rounded-md p-5 gap-10 w-72"
+
+ text-center
+ sm:text-left
+ rounded-md border border-zinc-800
+ p-2 sm:p-4
+ gap-10
+ w-22
+ sm:w-55"
 >
   <Menu titulo="Navigation">
     <MenuItem texto="Start" href="/">
